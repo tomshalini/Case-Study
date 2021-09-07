@@ -17,8 +17,8 @@ Combined value of User_id, app_id and device_name can be used as unique id but n
 ## Task2
 Describe briefly how you would find the features that are likely to be the most important for your model.
 ### Solution:
-Using **correlation matrix**
-From domain knowledge, device_name needs not be considered as a feature because of missing values and random names. If required to use it as a feature, one-hot encoding is not feasible option rather needs to use some fixed length embeddings.
+* Using **correlation matrix**
+* From domain knowledge, device_name needs not be considered as a feature because of missing values and random names. If required to use it as a feature, one-hot encoding is not feasible option rather needs to use some fixed length embeddings.
 
 ## Task3
 Identify which model you would try first, and at least one advantage and disadvantage of this choice.
