@@ -10,9 +10,7 @@ Imagine that you were asked to use this dataset to build a classification model,
 3. **Non numeric datatype**
     There are categorical data present in dataset. Based on model selection, we might need to handle categorical data using one-hot encoding.
 4. **Non featured Columns**
-Assuming there are multiple app_id corresponding to each app_category otherwise these two features are redundant information in dataset.
-
-Combined value of User_id, app_id and device_name can be used as unique id but not required for the model. (device_name can be maximum of number of rows in dataset which can not be handled using one hot encoding to feed it to the network).
+Assuming there are multiple app_id corresponding to each app_category otherwise these two features are redundant information in dataset. Combined value of User_id, app_id and device_name can be used as unique id but not required for the model. (device_name can be maximum of number of rows in dataset which can not be handled using one hot encoding to feed it to the network).
 
 ## Task2
 Describe briefly how you would find the features that are likely to be the most important for your model.
